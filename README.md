@@ -24,6 +24,7 @@ The results will be wroten into the folder vis/data.
 
 4. Model training
 To train the model, follow the following steps:
+
 4.1. Prepare the training data, including the public available synthetic data:
    Syn90k(http://www.robots.ox.ac.uk/~vgg/data/text/)
    SynthText(http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
