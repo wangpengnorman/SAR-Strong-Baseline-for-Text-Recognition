@@ -1,20 +1,18 @@
-READ ME
-
 This is the code for the paper
 "Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition",
 Hui Li*, Peng Wang*, Chunhua Shen, Guyu Zhang(* equal contribution) 
 published in AAAI-19
 
 
-Installation
+1. Installation
 
 The model is implemented in Torch, and depends on the following packages: torch/torch7, torch/nn, torch/nngraph, torch/image, lua-cjson, which can be easily install by "luarocks install **". CUDA-enabled GPUs are required. In addition, LMDB is required which can be installed by "apt-get install liblmdb-dev" and "pip install lmdb" in Ubuntu.
 
 
-Pretrained Model
-The pretrained model is localated in saved_model/BestModel.t7
+2. Pretrained Model
+The pretrained model is localated in 
 
-Run the model
+3. Run the model
 To run the model on a new image or image directory, use the script "run_model.lua". 
 
 To run the pretrained model on a provided image, use the '-input_image' flag, for example,
@@ -24,9 +22,9 @@ If you want to test the model on an entire directory of images, use the '-input_
 The results will be wroten into the folder vis/data.
 
 
-Training
+4. Model training
 To train the model, follow the following steps:
-1. Prepare the training data, including the public available synthetic data:
+4.1. Prepare the training data, including the public available synthetic data:
    Syn90k(http://www.robots.ox.ac.uk/~vgg/data/text/)
    SynthText(http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
    SynthAdd(https://pan.baidu.com/s/1uV0LtoNmcxbO-0YA7Ch4dg  (code:627x))
@@ -35,9 +33,9 @@ To train the model, follow the following steps:
    SVT (http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset)
    ICDAR2013, ICDAR2015, and COCO-Text (http://rrc.cvc.uab.es/?com=introduction)
 
-2. Use the script "create_dataset.py" to generate a group of "data.mdb" files which contain both synthetic and real data. The generated "data.mdb" will be saved under "DataDB" folder. To use create_dataset.py, the training images and their labels should be placed in the imagePathDir and a 'txt' labelfile separately.
+4.2. Use the script "create_dataset.py" to generate a group of "data.mdb" files which contain both synthetic and real data. The generated "data.mdb" will be saved under "DataDB" folder. To use create_dataset.py, the training images and their labels should be placed in the imagePathDir and a 'txt' labelfile separately.
 
-3. Run the script "th main_train.lua" to train the model.
+4.3. Run the script "th main_train.lua" to train the model.
 
 Citation
 Please cite the following paper if you are using the code/model in your research paper.
