@@ -3,11 +3,9 @@ This is the code for the paper
 Hui Li*, Peng Wang*, Chunhua Shen, Guyu Zhang(* equal contribution) 
 published in AAAI-19
 
-
 1. Installation
 
 The model is implemented in Torch, and depends on the following packages: torch/torch7, torch/nn, torch/nngraph, torch/image, lua-cjson, which can be easily install by "luarocks install **". CUDA-enabled GPUs are required. In addition, LMDB is required which can be installed by "apt-get install liblmdb-dev" and "pip install lmdb" in Ubuntu.
-
 
 2. Pretrained Model
 The pretrained model is localated in 
