@@ -1,3 +1,5 @@
+# Show, Attend and Read
+
 This is the code for the paper
 "Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition",
 Hui Li*, Peng Wang*, Chunhua Shen, Guyu Zhang(* equal contribution) 
@@ -32,10 +34,10 @@ To train the model, follow the following steps:
 
 0. Prepare the training data, including the public available synthetic data:
     ```
-    Syn90k(http://www.robots.ox.ac.uk/~vgg/data/text/)
-    SynthText(http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
-    SynthAdd(https://pan.baidu.com/s/1uV0LtoNmcxbO-0YA7Ch4dg  (code:627x))
-	```
+    Syn90k (http://www.robots.ox.ac.uk/~vgg/data/text/)
+    SynthText (http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
+    SynthAdd (https://pan.baidu.com/s/1uV0LtoNmcxbO-0YA7Ch4dg  (code:627x))
+    ```
     and public available real image datasets:
     ```
     IIIT5K (http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html)
