@@ -46,7 +46,9 @@ and public available real image datasets:
 
 4.3. Run the script "th main_train.lua" to train the model. The model will be saved regularly under the folder "saved_model".
 
+
 Citation
+
 Please cite the following paper if you are using the code/model in your research paper.
 @InProceedings{SAR_aaai19,
 	author = {Hui Li and Peng Wang and Chunhua Shen and Guyu Zhang},
@@ -54,6 +56,7 @@ Please cite the following paper if you are using the code/model in your research
 	booktitle = Proceeding of National Conference on Artificial Intelligence,
 	year = {2019},
 } 
+
 
 
 License
