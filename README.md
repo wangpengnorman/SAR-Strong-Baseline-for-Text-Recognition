@@ -3,17 +3,17 @@ This is the code for the paper
 Hui Li*, Peng Wang*, Chunhua Shen, Guyu Zhang(* equal contribution) 
 published in AAAI-19
 
-1. Installation
+## Installation
 
 The model is implemented in Torch, and has been tested under Ubuntu 14.04, with CUDA 8.0 and CUDNN 7.0.
 It depends on the following packages: torch/torch7, torch/nn, torch/nngraph, torch/image, lua-cjson, which can be easily install by "luarocks install **". CUDA-enabled GPUs are required. In addition, LMDB is required which can be installed by "apt-get install liblmdb-dev" and "pip install lmdb" in Ubuntu.
 
-2. Pretrained Model
+## Pretrained Model
 
 The pretrained model is localated in https://pan.baidu.com/s/1Z4a0l6UNhuWY3BDy8Z4Ctg because of the space limitation. Download it and put it into the "saved_model" folder.
 
 
-3. Run the model
+## Run the model
 
 To run the model on a new image or image directory, use the script "run_model.lua". 
 
@@ -26,7 +26,7 @@ To test the model on an entire directory of images, use the '-input_dir' flag in
 The results will be wroten into the folder vis/data.
 
 
-4. Model training
+## Model training
 
 To train the model, follow the following steps:
 
@@ -52,7 +52,7 @@ and public available real image datasets:
 4.3. Run the script "th main_train.lua" to train the model. The model will be saved regularly under the folder "saved_model".
 
 
-Citation
+## Citation
 
 Please cite the following paper if you are using the code/model in your research paper.
 @InProceedings{SAR_aaai19,
@@ -64,6 +64,6 @@ Please cite the following paper if you are using the code/model in your research
 
 
 
-License
+## License
 
 This code is only for academic purpose. For commercial purpose, please contact us.
