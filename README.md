@@ -9,20 +9,25 @@ The model is implemented in Torch, and has been tested under Ubuntu 14.04, with 
 It depends on the following packages: torch/torch7, torch/nn, torch/nngraph, torch/image, lua-cjson, which can be easily install by "luarocks install **". CUDA-enabled GPUs are required. In addition, LMDB is required which can be installed by "apt-get install liblmdb-dev" and "pip install lmdb" in Ubuntu.
 
 2. Pretrained Model
+
 The pretrained model is localated in https://pan.baidu.com/s/1Z4a0l6UNhuWY3BDy8Z4Ctg because of the space limitation. Download it and put it into the "saved_model" folder.
 
 
 3. Run the model
+
 To run the model on a new image or image directory, use the script "run_model.lua". 
 
 To run the pretrained model on a provided image, use the '-input_image' flag, for example,
 	th run_model.lua -input_image data/beach.jpg
+	
 To test the model on an entire directory of images, use the '-input_dir' flag instead:
 	th run_model.lua -input_dir /path/to/my/image/folder
+	
 The results will be wroten into the folder vis/data.
 
 
 4. Model training
+
 To train the model, follow the following steps:
 
 4.1. Prepare the training data, including the public available synthetic data:
