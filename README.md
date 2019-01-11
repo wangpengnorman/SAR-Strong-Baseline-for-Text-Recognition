@@ -31,13 +31,17 @@ The results will be wroten into the folder vis/data.
 To train the model, follow the following steps:
 
 0. Prepare the training data, including the public available synthetic data:
-        Syn90k(http://www.robots.ox.ac.uk/~vgg/data/text/)
-        SynthText(http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
-        SynthAdd(https://pan.baidu.com/s/1uV0LtoNmcxbO-0YA7Ch4dg  (code:627x))
-and public available real image datasets:
-        IIIT5K (http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html)
-        SVT (http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset)
-        ICDAR2013, ICDAR2015, and COCO-Text (http://rrc.cvc.uab.es/?com=introduction)
+    ```
+    Syn90k(http://www.robots.ox.ac.uk/~vgg/data/text/)
+    SynthText(http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
+    SynthAdd(https://pan.baidu.com/s/1uV0LtoNmcxbO-0YA7Ch4dg  (code:627x))
+	```
+    and public available real image datasets:
+    ```
+    IIIT5K (http://cvit.iiit.ac.in/projects/SceneTextUnderstanding/IIIT5K.html)
+    SVT (http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset)
+    ICDAR2013, ICDAR2015, and COCO-Text (http://rrc.cvc.uab.es/?com=introduction)
+    ```
 
 0. Use the script "create_dataset.py" to generate a group of "data.mdb" files which contain both synthetic and real data. The generated "data.mdb" will be saved under "DataDB" folder. To use create_dataset.py, the training images and their labels should be placed in the imagePathDir and a 'txt' labelfile separately.
 
