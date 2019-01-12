@@ -53,11 +53,12 @@ To train the model, follow the following steps:
 ## Citation
 
 Please cite the following paper if you are using the code/model in your research paper.
+
 @InProceedings{SAR_aaai19,
 	author = {Hui Li and Peng Wang and Chunhua Shen and Guyu Zhang},
 	title = {Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition},
-	booktitle = Proceeding of National Conference on Artificial Intelligence,
-	year = {2019},
+	booktitle ={AAAI Conference on Artificial Intelligence},
+	year = {2019}
 } 
 
 
