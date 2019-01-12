@@ -32,7 +32,7 @@ The results will be wroten into the folder vis/data.
 
 To train the model, follow the following steps:
 
-0. Prepare the training data, including the public available synthetic data:
+1. Prepare the training data, including the public available synthetic data:
     ```
     Syn90k (http://www.robots.ox.ac.uk/~vgg/data/text/)
     SynthText (http://www.robots.ox.ac.uk/~vgg/data/scenetext/)
@@ -45,9 +45,9 @@ To train the model, follow the following steps:
     ICDAR2013, ICDAR2015, and COCO-Text (http://rrc.cvc.uab.es/?com=introduction)
     ```
 
-0. Use the script "create_dataset.py" to generate a group of "data.mdb" files which contain both synthetic and real data. The generated "data.mdb" will be saved under "DataDB" folder. To use create_dataset.py, the training images and their labels should be placed in the imagePathDir and a 'txt' labelfile separately.
+1. Use the script "create_dataset.py" to generate a group of "data.mdb" files which contain both synthetic and real data. The generated "data.mdb" will be saved under "DataDB" folder. To use create_dataset.py, the training images and their labels should be placed in the imagePathDir and a 'txt' labelfile separately.
 
-0. Run the script "th main_train.lua" to train the model. The model will be saved regularly under the folder "saved_model".
+1. Run the script "th main_train.lua" to train the model. The model will be saved regularly under the folder "saved_model".
 
 
 ## Citation
