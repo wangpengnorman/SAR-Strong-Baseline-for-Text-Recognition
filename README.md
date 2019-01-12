@@ -3,7 +3,7 @@
 This is the code for the paper
 "Show, Attend and Read: A Simple and Strong Baseline for Irregular Text Recognition",
 Hui Li*, Peng Wang*, Chunhua Shen, Guyu Zhang(* equal contribution) 
-published in AAAI-19
+accepted to AAAI-19
 
 ## Installation
 
