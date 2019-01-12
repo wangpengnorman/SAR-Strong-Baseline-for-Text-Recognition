@@ -64,4 +64,4 @@ Please cite the following paper if you are using the code/model in your research
 
 ## License
 
-This code is only for academic purpose. For commercial purpose, please contact us.
+This code is only for academic purpose. For commercial purpose, please contact us (peng.wang@nwpu.edu.cn).
